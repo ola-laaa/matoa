@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Confirmation</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230826185428">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- ********************* -->
+		<!--         HEADER        -->
+		<!-- ********************* -->
+		<header class="header" data-lp>
+			<div class="header__container">
+				<a href="home.html" class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="matoa"></picture></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Watches</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Eyewear</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Accessories</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-popup="#search" href="#" class="actions-header__search _icon-search"></a>
+					<a href="" data-da=".menu__body, 400" class="actions-header__login _icon-user">Log In</a>
+					<a href="" class="actions-header__like _icon-like"></a>
+					<a data-popup="#cart_" href="#" class="actions-header__cart _icon-cart"><span></span></a>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<!--     end of header     -->
+
+		<!-- ********************* -->
+		<!--        CONTENT        -->
+		<!-- ********************* -->
+		<main class="confirmation">
+			<!-- навигационная инфографика (ни в чем не нуждается) -->
+			<div class="confirmation__infographics infographics">
+				<div class="infographics__container">
+					<ul class="infographics__list">
+						<li class="infographics__item">
+							<div class="infographics__image">
+								<img src="img/confirmation/infographics/01.svg" alt="Checkout">
+							</div>
+							<div class="infographics__label">1. Checkout</div>
+						</li>
+						<li class="infographics__item">
+							<div class="infographics__image">
+								<img src="img/confirmation/infographics/02.svg" alt="Payment">
+							</div>
+							<div class="infographics__label">2. Payment</div>
+						</li>
+						<li class="infographics__current">
+							<div class="infographics__image">
+								<img src="img/confirmation/infographics/03.svg" alt="Confirmation">
+							</div>
+							<div class="infographics__label">3. Confirmation</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- конец навигационной инфографики -->
+
+			<!-- блок с картинкой и финальным "чеком" -->
+			<section class="confirmation__body body-confirmation">
+				<div class="body-confirmation__container">
+					<div class="body-confirmation__confirmed confirmed">
+						<div class="confirmed__image">
+							<img src="img/confirmation/body-confirmation/image.svg" alt="Confirmed">
+						</div>
+						<div class="confirmed__sub-title">Order Confirmed</div>
+						<div class="confirmed__text">Your order have been confirmed, please wait and track your order</div>
+					</div>
+					<div class="body-confirmation__bill bill">
+						<div class="bill__labels">
+							<!-- время доставки (придумай что-то) -->
+							<div class="bill__label_time">10 days delivery</div>
+							<!-- выбранная служба доставки из формы на чекауте -->
+							<div class="bill__label_service">DHL</div>
+						</div>
+						<div class="bill__items">
+							<!-- название купленого товара -->
+							<div class="bill__item">Way Kambas Mini Ebony</div>
+							<!-- количество и цена за 1 единицу -->
+							<div class="bill__quantity">2 x IDR 1.024.000</div>
+							<!-- название купленого товара -->
+							<div class="bill__item">Sikka (Ebony & Mapple)</div>
+							<!-- количество и цена за 1 единицу -->
+							<div class="bill__quantity">1 x IDR 1.264.000</div>
+						</div>
+						<div class="bill__info">
+							<div class="bill__name">Subtotal</div>
+							<!-- сумма чисто за товары -->
+							<div class="bill__value">Rp 2.152.000</div>
+							<div class="bill__name">Shipping Cost</div>
+							<!-- + цена доставки -->
+							<div class="bill__value">Rp 500.000</div>
+							<div class="bill__name">Packaging</div>
+							<!-- + цена упаковки -->
+							<div class="bill__value">Rp 50.000</div>
+						</div>
+						<div class="bill__sum">
+							<div class="bill__total">Grand Total</div>
+							<!-- общая сумма за все -->
+							<div class="bill__cost">Rp 2.702.000</div>
+						</div>
+						<div class="bill__shipping">
+							<div class="bill__address">Shipping Address</div>
+							<!-- адрес доставки из формы на чекауте -->
+							<div class="bill__place">18 Richardson Drive, Fountain Valley, CA 92708</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- конец блока с картинкой и финальным "чеком" -->
+
+			<!-- блок Clients -->
+			<section class="confirmation__clients clients">
+				<div class="clients__container">
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/01.png" alt="BNI"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/02.png" alt="PermataBank"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/03.png" alt="MasterCard"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/04.png" alt="Danamon"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/05.png" alt="VISA"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/06.png" alt="mandiri"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/07.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/07.png" alt="Kredivo"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/08.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/08.png" alt="UOB"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/09.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/09.png" alt="GO PAY"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/10.png" alt="Standart Chartered"></picture>
+					</div>
+				</div>
+			</section>
+			<!-- конец блока Clients -->
+		</main>
+		<!--     end of content     -->
+
+		<!-- ********************* -->
+		<!--         FOOTER        -->
+		<!-- ********************* -->
+		<footer data-spollers="991.98,max" class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<a href="" class="footer__logo">
+						<picture><source srcset="img/logo-footer.webp" type="image/webp"><img src="img/logo-footer.png" alt="logo"></picture>
+					</a>
+					<div class="footer__blocks">
+						<div class="footer__block">
+							<h3 class="footer__label label-footer">Address</h3>
+							<div class="footer__text">
+								<p>Store & Office</p>
+								<p>Jl. Setrasari Kulon III, No. 10-12,</p>
+								<p>Sukarasa, Sukasari, Bandung,</p>
+								<p>Jawa Barat, Indonesia 40152</p>
+							</div>
+						</div>
+						<div class="footer__block">
+							<h3 class="footer__label label-footer">Office Hour</h3>
+							<div class="footer__text">
+								<p>Monday - Sunday</p>
+								<p>10.00 - 18.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Get in touch</button>
+					<div class="footer__contacts contacts-footer">
+						<div class="contacts-footer__body">
+							<div class="contacts-footer__label label-footer">Phone</div>
+							<a href="tel:02220277564" class="contacts-footer__value">022-20277564</a>
+							<div class="contacts-footer__label label-footer">Service Center</div>
+							<a href="tel:08112338899" class="contacts-footer__value">0811-233-8899</a>
+							<div class="contacts-footer__label label-footer">Customer Service</div>
+							<a href="tel:08112359988" class="contacts-footer__value">0811-235-9988</a>
+							<div class="footer__social social">
+								<a href="#" class="social__item _icon-s-facebook"></a>
+								<a href="#" class="social__item _icon-s-instagram"></a>
+								<a href="#" class="social__item _icon-s-twitter"></a>
+								<a href="#" class="social__item _icon-s-youtube"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Useful Link</button>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Warranty & Complaints</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Order & Shipping</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Tracking Order</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">About Us</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Repair</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Terms</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">FAQ</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Campaign</button>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Mengenal Arti Cukups</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Tell Your Difference</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Waykambas</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Rebrand</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Gallery</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Singo</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Rakai</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+		<!--      end of footer     -->
+	</div>
+
+	<!-- ********************* -->
+	<!--    POPUP search    -->
+	<!-- *внутри имеется форма поиска* -->
+	<!-- ********************* -->
+	<div id="search" aria-hidden="true" class="popup popup_search">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<!-- *начинается форма поиска* -->
+					<form action="#" method="get" class="search-form">
+						<div class="search-form__title title title_small">Search</div>
+						<div class="search-form__body">
+							<div class="search-form__line">
+								<input data-required autocomplete="off" type="text" name="form[]" data-error="No entered request" placeholder="Enter product name" class="search-form__input input">
+								<!-- *выпадающий список с динамическими результатами поиска* -->
+								<ul class="search-form__list list-search">
+									<!-- *карточка-ряд выпадающего списка* -->
+									<li>
+										<a href="" class="list-search__link">
+											<div class="list-search__img">
+												<picture><source srcset="img/monthly-deals/01.webp" type="image/webp"><img src="img/monthly-deals/01.jpg" alt=""></picture>
+											</div>
+											<span class="list-search__name">Watch</span>
+										</a>
+									</li>
+									<!-- *следующая карточка-ряд выпадающего списка* -->
+									<li>
+										<a href="" class="list-search__link">
+											<div class="list-search__img">
+												<picture><source srcset="img/monthly-deals/01.webp" type="image/webp"><img src="img/monthly-deals/01.jpg" alt=""></picture>
+											</div>
+											<span class="list-search__name">Watch</span>
+										</a>
+									</li>
+									<!-- *конец карточки (они все засунуты в li)* -->
+								</ul>
+								<!-- *конец выпадающего списка* -->
+							</div>
+							<button type="submit" class="button _icon-search"></button>
+						</div>
+					</form>
+					<!-- *конец формы поиска* -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  конец попапа search  -->
+	<!-- ********************* -->
+	<!--    POPUP cart    -->
+	<!-- *внутри добавление товаров в карточки, поле промокода* -->
+	<!-- ********************* -->
+	<div id="cart_" aria-hidden="true" class="popup popup_cart">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<!-- общая форма корзины -->
+					<form action="#" class="cart">
+						<div class="cart__items">
+							<!-- карточка (в этой внутри прокомментированы элементы, в следующих по аналогии) -->
+							<div class="cart__item item-cart">
+								<a href="" class="item-cart__image">
+									<!-- src-путь к картинке, alt-альтернативный текст (желательно его в одну переменную с названием, они одинаковые должны быть) -->
+									<picture><source srcset="img/collections/ebony/04.webp" type="image/webp"><img src="img/collections/ebony/04.png" alt="Way Kambas Mini Ebony"></picture>
+								</a>
+								<div class="item-cart__body">
+									<!-- название товара -->
+									<a href="" class="item-cart__title">Way Kambas Mini Ebony</a>
+									<!-- старая цена -->
+									<div class="item-cart__old-price old-price">Rp 1.280.000</div>
+									<!-- цена со скидкой -->
+									<div class="item-cart__price">Rp 1.024.000</div>
+								</div>
+								<div class="item-cart__info">
+									<div class="item-cart__packaging">
+										<div class="item-cart__label">Select Packaging</div>
+										<!-- выбор упаковки -->
+										<select name="form[]" data-class-modif="cart">
+											<option value="1" selected>Default Packaging (Free)</option>
+											<option value="2">Wooden Packaging (Rp 50.000)</option>
+											<option value="3">Textile Packaging (Rp 30.000)</option>
+										</select>
+									</div>
+									<div class="item-cart__actions">
+										<div data-quantity class="item-cart__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<!-- поле количества -->
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<!-- общая стоимость по 1 виду товара -->
+										<div class="item-cart__total">Rp 2.048.000</div>
+										<!-- кнопка удалить товар -->
+										<button class="item-cart__delete _icon-delete"></button>
+									</div>
+								</div>
+							</div>
+							<!-- конец карточки -->
+							<!-- карточка -->
+							<div class="cart__item item-cart">
+								<a href="" class="item-cart__image">
+									<picture><source srcset="img/collections/featured/01.webp" type="image/webp"><img src="img/collections/featured/01.png" alt="Sikka (Ebony & Maple)"></picture>
+								</a>
+								<div class="item-cart__body">
+									<a href="" class="item-cart__title">Sikka (Ebony & Maple)</a>
+									<div class="item-cart__price">Rp 1.264.000</div>
+								</div>
+								<div class="item-cart__info">
+									<div class="item-cart__packaging">
+										<div class="item-cart__label">Select Packaging</div>
+										<select name="form[]" data-class-modif="cart">
+											<option value="1" selected>Default Packaging (Free)</option>
+											<option value="2">Wooden Packaging (Rp 50.000)</option>
+											<option value="3">Textile Packaging (Rp 30.000)</option>
+										</select>
+									</div>
+									<div class="item-cart__actions">
+										<div data-quantity class="item-cart__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-cart__total">Rp 1.264.000</div>
+										<button class="item-cart__delete _icon-delete"></button>
+									</div>
+								</div>
+							</div>
+							<!-- конец карточки -->
+						</div>
+						<div class="cart__footer">
+							<div class="cart__promo promo-cart">
+								<label for="p-1" class="promo-cart__label">Kode Promo</label>
+								<div class="promo-cart__line">
+									<!-- поле промокода -->
+									<input id="p-1" autocomplete="off" type="text" name="promo" class="promo-cart__input">
+								</div>
+								<div class="promo-cart__info">35% OFF</div>
+							</div>
+							<div class="cart__total total-cart">
+								<div class="total-cart__label">Subtotal</div>
+								<div class="total-cart__value">
+									<!-- общая цена покупки старая -->
+									<div class="total-cart__old-price old-price">Rp 3.312.000</div>
+									<!-- общая цена покупки со скидкой -->
+									<div class="total-cart__price">Rp 2.152.000</div>
+								</div>
+							</div>
+						</div>
+						<button type="submit" class="cart__button button">Checkout</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  конец попапа cart  -->
+
+	<script src="js/app.min.js?_v=20230826185428"></script>
+</body>
+
+</html>

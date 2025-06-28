@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230826185428">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="opacity: 0;">
+	<div class="wrapper">
+		<!-- ********************* -->
+		<!--         HEADER        -->
+		<!-- ********************* -->
+		<header class="header" data-lp>
+			<div class="header__container">
+				<a href="home.html" class="header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="matoa"></picture></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="" class="menu__link">Watches</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Eyewear</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Accessories</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__actions actions-header">
+					<a data-popup="#search" href="#" class="actions-header__search _icon-search"></a>
+					<a href="" data-da=".menu__body, 400" class="actions-header__login _icon-user">Log In</a>
+					<a href="" class="actions-header__like _icon-like"></a>
+					<a data-popup="#cart_" href="#" class="actions-header__cart _icon-cart"><span></span></a>
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<!--     end of header     -->
+
+		<!-- ********************* -->
+		<!--        CONTENT        -->
+		<!-- ********************* -->
+		<main class="page">
+			<!-- первый блок со слайдером -->
+			<!-- *внутри имеются слайды (для которых наверное нужен шаблон), кнопка добавления в корзину* -->
+			<section class="page__main-slider main-slider">
+				<div class="main-slider__container">
+					<!-- Оболонка слайдера (комменты на укр не для Максима!!! для Оли. Макс пусть ищет кнопку добавления в корзину, она на каждом слайде отдельная) -->
+					<div class="main-slider__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="main-slider__wrapper swiper-wrapper">
+							<!-- Слайд (вот это для Максима!) (в этом внутри прокомментированы элементы, в следующих по аналогии) -->
+							<div class="main-slider__slide slide-main-slider swiper-slide">
+								<div data-da=".slide-main-slider__body_1, 767.98, 1" class="slide-main-slider__image-ibg_contain">
+									<!-- src-путь к картинке, alt-альтернативный текст (желательно его в одну переменную с названием, они одинаковые должны быть) -->
+									<picture><source data-srcset="img/main-slider/slider/image.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/main-slider/slider/image.png" alt="Way Kambas Mini Ebony"></picture>
+								</div>
+								<div class="slide-main-slider__body slide-main-slider__body_1">
+									<!-- название -->
+									<h2 class="slide-main-slider__title">WAY KAMBAS MINI EBONY</h2>
+									<!-- текст -->
+									<div class="slide-main-slider__text text">MATOA Way Kambas - This wood is chosen to represent the Sumatran Rhino's skin which is designed with an overlap effect on its strap to represent Rhino's skin.</div>
+									<!-- ссылка ведет на страничку товара -->
+									<a href="" class="slide-main-slider__more more">Discover</a>
+									<div class="slide-main-slider__actions">
+										<!-- КНОПКА ДОБАВЛЕНИЯ В КОРЗИНУ №1 -->
+										<button data-ripple type="button" class="slide-main-slider__button button button_cart"><span class="_icon-cart-plus">Add to cart</span></button>
+										<!-- ее конец, следующее по коду - просто ссылка какая-то -->
+										<a href="#" class="slide-main-slider__button border-button border-button_cicil">
+											<img src="img/icons/cicil.svg" alt="cicil">
+										</a>
+									</div>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="main-slider__slide slide-main-slider swiper-slide">
+								<div data-da=".slide-main-slider__body_2, 767.98, 1" class="slide-main-slider__image-ibg_contain">
+									<picture><source data-srcset="img/main-slider/slider/image.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/main-slider/slider/image.png" alt="Way Kambas Mini Ebony"></picture>
+								</div>
+								<div class="slide-main-slider__body slide-main-slider__body_2">
+									<h2 class="slide-main-slider__title">WAY KAMBAS MINI EBONY</h2>
+									<div class="slide-main-slider__text text">MATOA Way Kambas - This wood is chosen to represent the Sumatran Rhino's skin which is designed with an overlap effect on its strap to represent Rhino's skin. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vel beatae necessitatibus voluptates repellendus quae id odio deserunt perferendis autem incidunt, dolorem saepe repellat voluptate placeat quas explicabo natus optio consequuntur aspernatur adipisci a quis dignissimos. Id deserunt nemo quis! Totam ea, voluptatibus sunt blanditiis facilis velit earum libero, placeat eligendi aspernatur quidem sequi facere.</div>
+									<a href="" class="slide-main-slider__more more">Discover</a>
+									<div class="slide-main-slider__actions">
+										<!-- КНОПКА ДОБАВЛЕНИЯ В КОРЗИНУ №2 -->
+										<button data-ripple type="button" class="slide-main-slider__button button button_cart"><span class="_icon-cart-plus">Add to cart</span></button>
+										<!-- ее конец, следующее по коду - просто ссылка какая-то -->
+										<a href="#" class="slide-main-slider__button  border-button  border-button_cicil">
+											<img data-src="img/icons/cicil.svg" alt="cicil">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<div class="main-slider__arrows">
+							<button type="button" class="main-slider__arrow swiper-button-prev _icon-arrow-slider"></button>
+							<button type="button" class="main-slider__arrow swiper-button-next _icon-arrow-slider"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- конец первого блока со слайдером -->
+
+			<!-- блок с карточками Discover Now -->
+			<!-- *внутри имеются карточки (для которых желательно шаблон)* -->
+			<div data-watch data-watch-threshold="0.3" class="page__discover-now discover-now">
+				<div class="discover-now__container">
+					<!-- карточка (в этой внутри прокомментированы элементы, в следующих по аналогии) -->
+					<article class="discover-now__item item-discover-now">
+						<!-- заголовок -->
+						<h3 class="item-discover-now__title">Luxurious <span>Eyewear</span></h3>
+						<div class="item-discover-now__body">
+							<!-- текст -->
+							<div class="item-discover-now__text">See the beauty of exotic world with the luxurious glasses</div>
+							<!-- ссылка по идее должна вести на страницу раздела Eyewear (у меня его нет в макете, поэтому она вникуда) -->
+							<a href="" class="item-discover-now__link more">Discover Now</a>
+							<div class="item-discover-now__image">
+								<!-- src-путь к картинке, alt-альтернативный текст (желательно его в одну переменную с заголовком, они одинаковые должны быть) -->
+								<picture><source data-srcset="img/discover-now/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/discover-now/01.jpg" alt="Luxurious Glasses"></picture>
+							</div>
+						</div>
+					</article>
+					<!-- конец карточки -->
+					<!-- карточка -->
+					<article class="discover-now__item item-discover-now">
+						<h3 class="item-discover-now__title">Comfortable <span>Watches</span></h3>
+						<div class="item-discover-now__body">
+							<div class="item-discover-now__text">Feels the balancing function and beauty in our wooden watches</div>
+							<a href="" class="item-discover-now__link more">Discover Now</a>
+							<div class="item-discover-now__image">
+								<picture><source data-srcset="img/discover-now/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/discover-now/02.jpg" alt="Wooden Watches"></picture>
+							</div>
+						</div>
+					</article>
+					<!-- конец карточки -->
+				</div>
+			</div>
+			<!-- конец блока с карточками Discover Now -->
+
+			<!-- блок Monthly deals -->
+			<!-- *внутри имеются карточки с товарами, кнопки добавления в корзину и лайка (добавление в избранное)* -->
+			<section class="page__monthly-deals monthly-deals">
+				<div class="monthly-deals__container">
+					<h2 class="monthly-deals__title title">Monthly Deals</h2>
+					<div class="monthly-deals__items">
+						<!-- карточка товара (в этой внутри прокомментированы элементы, в следующих по аналогии) -->
+						<article class="monthly-deals__item item-monthly-deal like">
+							<a href="#" class="item-monthly-deal__image-ibg">
+								<!-- src-путь к картинке, alt-альтернативный текст (желательно его в одну переменную с названием, они одинаковые должны быть) -->
+								<picture><source data-srcset="img/monthly-deals/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/monthly-deals/01.jpg" alt="Singo Maple"></picture>
+							</a>
+							<div class="item-monthly-deal__body">
+								<div class="item-monthly-deal__visible">
+									<!-- название товара -->
+									<h4 class="item-monthly-deal__title">
+										<a href="#" class="item-monthly-deal__link-title">Singo Maple</a>
+									</h4>
+									<!-- скидка -->
+									<div class="item-monthly-deal__discount">20% Off</div>
+									<!-- старая цена -->
+									<div class="item-monthly-deal__price item-monthly-deal__price_old">Rp 1.500.000</div>
+									<!-- цена со скидкой -->
+									<div class="item-monthly-deal__price">Rp 1.264.000</div>
+								</div>
+								<div class="item-monthly-deal__hidden">
+									<div class="item-monthly-deal__actions">
+										<!-- кнопка лайка -->
+										<buttton class="item-monthly-deal__like" type="button">
+											<svg stroke="#d84727" width="20" height="18" viewBox="0 0 22 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.9999 3.09334C20.1066 1.26001 17.5332 -0.239994 14.5399 0.63334C13.1096 1.0465 11.8616 1.93253 10.9999 3.14667C10.1382 1.93253 8.89027 1.0465 7.45991 0.63334C4.45991 -0.22666 1.89324 1.26001 0.999911 3.09334C-0.253422 5.66001 0.266578 8.54667 2.54658 11.6733C4.33325 14.12 6.88658 16.6 10.5932 19.48C10.7104 19.5714 10.8547 19.621 11.0032 19.621C11.1518 19.621 11.2961 19.5714 11.4132 19.48C15.1132 16.6067 17.6732 14.1467 19.4599 11.6733C21.7332 8.54667 22.2532 5.66001 20.9999 3.09334Z" fill="black" />
+											</svg>
+										</buttton>
+										<!-- кнопка добавления в корзину -->
+										<button class="item-monthly-deal__cart button button_small" type="button">Add to cart</button>
+									</div>
+								</div>
+							</div>
+						</article>
+						<!-- конец карточки -->
+						<!-- карточка товара -->
+						<article class="monthly-deals__item item-monthly-deal">
+							<a href="#" class="item-monthly-deal__image-ibg">
+								<picture><source data-srcset="img/monthly-deals/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/monthly-deals/02.jpg" alt="Singo Ebony"></picture>
+							</a>
+							<div class="item-monthly-deal__body">
+								<div class="item-monthly-deal__visible">
+									<h4 class="item-monthly-deal__title">
+										<a href="#" class="item-monthly-deal__link-title">Singo Ebony</a>
+									</h4>
+									<div class="item-monthly-deal__discount">20% Off</div>
+									<div class="item-monthly-deal__price item-monthly-deal__price_old">Rp 1.500.000</div>
+									<div class="item-monthly-deal__price">Rp 1.264.000</div>
+								</div>
+								<div class="item-monthly-deal__hidden">
+									<div class="item-monthly-deal__actions">
+										<buttton class="item-monthly-deal__like" type="button">
+											<svg stroke="#d84727" width="20" height="18" viewBox="0 0 22 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.9999 3.09334C20.1066 1.26001 17.5332 -0.239994 14.5399 0.63334C13.1096 1.0465 11.8616 1.93253 10.9999 3.14667C10.1382 1.93253 8.89027 1.0465 7.45991 0.63334C4.45991 -0.22666 1.89324 1.26001 0.999911 3.09334C-0.253422 5.66001 0.266578 8.54667 2.54658 11.6733C4.33325 14.12 6.88658 16.6 10.5932 19.48C10.7104 19.5714 10.8547 19.621 11.0032 19.621C11.1518 19.621 11.2961 19.5714 11.4132 19.48C15.1132 16.6067 17.6732 14.1467 19.4599 11.6733C21.7332 8.54667 22.2532 5.66001 20.9999 3.09334Z" fill="black" />
+											</svg>
+										</buttton>
+										<button class="item-monthly-deal__cart button button_small" type="button">Add to cart</button>
+									</div>
+								</div>
+							</div>
+						</article>
+						<!-- конец карточки -->
+						<!-- карточка товара -->
+						<article class="monthly-deals__item item-monthly-deal">
+							<a href="#" class="item-monthly-deal__image-ibg">
+								<picture><source data-srcset="img/monthly-deals/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/monthly-deals/03.jpg" alt="Rakai Ebony"></picture>
+							</a>
+							<div class="item-monthly-deal__body">
+								<div class="item-monthly-deal__visible">
+									<h4 class="item-monthly-deal__title">
+										<a href="#" class="item-monthly-deal__link-title">Rakai Ebony</a>
+									</h4>
+									<div class="item-monthly-deal__discount">15% Off</div>
+									<div class="item-monthly-deal__price item-monthly-deal__price_old">Rp 1.280.000</div>
+									<div class="item-monthly-deal__price">Rp 1.118.000</div>
+								</div>
+								<div class="item-monthly-deal__hidden">
+									<div class="item-monthly-deal__actions">
+										<buttton class="item-monthly-deal__like" type="button">
+											<svg stroke="#d84727" width="20" height="18" viewBox="0 0 22 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.9999 3.09334C20.1066 1.26001 17.5332 -0.239994 14.5399 0.63334C13.1096 1.0465 11.8616 1.93253 10.9999 3.14667C10.1382 1.93253 8.89027 1.0465 7.45991 0.63334C4.45991 -0.22666 1.89324 1.26001 0.999911 3.09334C-0.253422 5.66001 0.266578 8.54667 2.54658 11.6733C4.33325 14.12 6.88658 16.6 10.5932 19.48C10.7104 19.5714 10.8547 19.621 11.0032 19.621C11.1518 19.621 11.2961 19.5714 11.4132 19.48C15.1132 16.6067 17.6732 14.1467 19.4599 11.6733C21.7332 8.54667 22.2532 5.66001 20.9999 3.09334Z" fill="black" />
+											</svg>
+										</buttton>
+										<button class="item-monthly-deal__cart button button_small" type="button">Add to cart</button>
+									</div>
+								</div>
+							</div>
+						</article>
+						<!-- конец карточки -->
+						<!-- карточка товара -->
+						<article class="monthly-deals__item item-monthly-deal">
+							<a href="#" class="item-monthly-deal__image-ibg">
+								<picture><source data-srcset="img/monthly-deals/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/monthly-deals/04.jpg" alt="Way Kambas Mini Maple"></picture>
+							</a>
+							<div class="item-monthly-deal__body">
+								<div class="item-monthly-deal__visible">
+									<h4 class="item-monthly-deal__title">
+										<a href="#" class="item-monthly-deal__link-title">Way Kambas Mini Maple</a>
+									</h4>
+									<div class="item-monthly-deal__discount">10% Off</div>
+									<div class="item-monthly-deal__price item-monthly-deal__price_old">Rp 1.280.000</div>
+									<div class="item-monthly-deal__price">Rp 1.024.000</div>
+								</div>
+								<div class="item-monthly-deal__hidden">
+									<div class="item-monthly-deal__actions">
+										<buttton class="item-monthly-deal__like" type="button">
+											<svg stroke="#d84727" width="20" height="18" viewBox="0 0 22 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+												<path d="M20.9999 3.09334C20.1066 1.26001 17.5332 -0.239994 14.5399 0.63334C13.1096 1.0465 11.8616 1.93253 10.9999 3.14667C10.1382 1.93253 8.89027 1.0465 7.45991 0.63334C4.45991 -0.22666 1.89324 1.26001 0.999911 3.09334C-0.253422 5.66001 0.266578 8.54667 2.54658 11.6733C4.33325 14.12 6.88658 16.6 10.5932 19.48C10.7104 19.5714 10.8547 19.621 11.0032 19.621C11.1518 19.621 11.2961 19.5714 11.4132 19.48C15.1132 16.6067 17.6732 14.1467 19.4599 11.6733C21.7332 8.54667 22.2532 5.66001 20.9999 3.09334Z" fill="black" />
+											</svg>
+										</buttton>
+										<button class="item-monthly-deal__cart button button_small" type="button">Add to cart</button>
+									</div>
+								</div>
+							</div>
+						</article>
+						<!-- конец карточки -->
+					</div>
+				</div>
+			</section>
+			<!-- конец блока Monthly deals -->
+
+			<!-- блок Recent News (при желании его тоже можно посадить на админку, как впрочем все неуказанные блоки) -->
+			<section class="page__recent-news recent-news">
+				<div class="recent-news__container">
+					<h2 class="recent-news__title title">Recent News</h2>
+					<div class="recent-news__body">
+						<div class="recent-news__content">
+							<div class="recent-news__label">Where To Travel</div>
+							<div class="recent-news__sub-title">Matoa Where To Travel? Yogyakarta</div>
+							<a href="#" class="recent-news__button border-button border-button_small">Discover</a>
+						</div>
+						<div class="recent-news__image">
+							<picture><source data-srcset="img/recent-news/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/recent-news/01.jpg" alt="Dark watch on a man's wrist"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- конец блока Recent News -->
+
+			<!-- блок Collections -->
+			<!-- *внутри имеются карточки с товарами по категориям, пагинация* -->
+			<section class="page__collections collections">
+				<div class="collections__container">
+					<div class="collections__body">
+						<div class="collections__column">
+							<h3 class="collections__title title title_small">Maple Series</h3>
+							<!-- категория Maple (оставила id, по которым можно обратиться к категории и туда поместить карточку) -->
+							<div id="cat-01" class="collections__items">
+								<!-- карточка товара (в этой внутри прокомментированы элементы, в следующих по аналогии) -->
+								<!-- *каждой карточке присваиваю свое id типо для идентификации товара* -->
+								<article id="pid-1" class="collections__item item">
+									<a href="#" class="item__image">
+										<!-- src-путь к картинке, alt-альтернативный текст (желательно его в одну переменную с названием, они одинаковые должны быть) -->
+										<picture><source data-srcset="img/collections/maple/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/maple/01.png" alt="Way Kambas Maple"></picture>
+									</a>
+									<div class="item__body">
+										<!-- название товара -->
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Way Kambas Maple</a>
+										</h4>
+										<!-- цена -->
+										<!-- ВНИМАНИЕ в одной карточке также есть старая цена, в ней я помечу только этот элемент, смотреть ниже это карточка с id="pid-4" -->
+										<div class="item__price">Rp 1.280.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+								<!-- карточка товара -->
+								<article id="pid-2" class="collections__item item">
+									<a href="#" class="item__image">
+										<picture><source data-srcset="img/collections/maple/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/maple/02.png" alt="Kaili"></picture>
+									</a>
+									<div class="item__body">
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Kaili</a>
+										</h4>
+										<div class="item__price">Rp 950.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+								<!-- карточка товара -->
+								<article id="pid-3" class="collections__item item">
+									<a href="#" class="item__image">
+										<picture><source data-srcset="img/collections/maple/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/maple/03.png" alt="Sunda"></picture>
+									</a>
+									<div class="item__body">
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Sunda</a>
+										</h4>
+										<div class="item__price">Rp 1.170.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+							</div>
+							<!-- конец категории -->
+						</div>
+						<div class="collections__column">
+							<h3 class="collections__title title title_small">Ebony Series</h3>
+							<!-- категория Ebony -->
+							<div id="cat-02" class="collections__items">
+								<!-- карточка товара -->
+								<article id="pid-4" class="collections__item item">
+									<a href="#" class="item__image">
+										<picture><source data-srcset="img/collections/ebony/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/ebony/01.png" alt="Tomia Ebony"></picture>
+									</a>
+									<div class="item__body">
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Tomia Ebony</a>
+										</h4>
+										<!-- СТАРАЯ ЦЕНА -->
+										<div class="item__old-price">Rp 1.280.000</div>
+										<div class="item__price">Rp 960.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+								<!-- карточка товара -->
+								<article id="pid-5" class="collections__item item">
+									<a href="#" class="item__image">
+										<picture><source data-srcset="img/collections/ebony/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/ebony/01.png" alt="Mori"></picture>
+									</a>
+									<div class="item__body">
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Mori</a>
+										</h4>
+										<div class="item__price">Rp 950.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+								<!-- карточка товара -->
+								<article id="pid-6" class="collections__item item">
+									<a href="#" class="item__image">
+										<picture><source data-srcset="img/collections/ebony/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/ebony/03.png" alt="Alor"></picture>
+									</a>
+									<div class="item__body">
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Alor</a>
+										</h4>
+										<div class="item__price">Rp 1.170.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+							</div>
+							<!-- конец категории -->
+						</div>
+						<div class="collections__column">
+							<h3 class="collections__title title title_small">Featured</h3>
+							<!-- категория Featured-->
+							<div id="cat-03" class="collections__items">
+								<!-- карточка товара -->
+								<article id="pid-6" class="collections__item item">
+									<a href="#" class="item__image">
+										<picture><source data-srcset="img/collections/featured/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/featured/01.png" alt="Sikka (Ebony & Maple)"></picture>
+									</a>
+									<div class="item__body">
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Sikka (Ebony & Maple)</a>
+										</h4>
+										<div class="item__price">Rp 1.198.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+								<!-- карточка товара -->
+								<article id="pid-7" class="collections__item item">
+									<a href="#" class="item__image">
+										<picture><source data-srcset="img/collections/featured/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/featured/02.png" alt="Lore Walnut"></picture>
+									</a>
+									<div class="item__body">
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Lore Walnut</a>
+										</h4>
+										<div class="item__price">Rp 1.280.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+								<!-- карточка товара -->
+								<article id="pid-8" class="collections__item item">
+									<a href="#" class="item__image">
+										<picture><source data-srcset="img/collections/featured/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/collections/featured/03.png" alt="Way Kambas Limited Edition"></picture>
+									</a>
+									<div class="item__body">
+										<h4 class="item__title">
+											<a href="#" class="item__link-title">Way Kambas Limited Edition</a>
+										</h4>
+										<div class="item__price">Rp 1.170.000</div>
+									</div>
+								</article>
+								<!-- конец карточки -->
+							</div>
+							<!-- конец категории -->
+						</div>
+					</div>
+					<div class="collections__footer footer-collections">
+						<div class="footer-collections__body">
+							<!-- кнопка пагинации вперед (задан атрибут disabled для кнопки, по которой дальше нельзя перейти, к нему прописаны стили неработающей стрелки) -->
+							<button disabled class="footer-collections__arrow footer-collections__arrow_prev _icon-arrow-slider"></button>
+							<!-- номер-ссылка 1 (я ему задала класс active как для активной страницы, по этому классу и можно обращаться к активному номеру) -->
+							<a href="" class="footer-collections__number active">1</a>
+							<!-- номер-ссылка 2 -->
+							<a href="" class="footer-collections__number">2</a>
+							<!-- номер-ссылка 3 -->
+							<a href="" class="footer-collections__number">3</a>
+							<!-- кнопка пагинации назад -->
+							<button class="footer-collections__arrow footer-collections__arrow_next _icon-arrow-slider"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- конец блока Collections -->
+
+			<!-- блок Testimonials -->
+			<!-- *внутри имеется слайдер* -->
+			<section class="page__testimonials testimonials">
+				<div class="testimonials__container">
+					<h2 class="testimonials__title title title_semibold">Testimonials</h2>
+					<!-- Оболонка слайдера -->
+					<div class="testimonials__slider swiper">
+						<!-- Частина слайдера, що рухається -->
+						<div class="testimonials__wrapper swiper-wrapper">
+							<!-- Слайд (в этом внутри прокомментированы элементы, в следующих по аналогии) -->
+							<div class="testimonials__slide slide-testimonial swiper-slide">
+								<div class="slide-testimonial__image">
+									<!-- src-путь к картинке, alt-альтернативный текст (желательно его в одну переменную с именем, они одинаковые должны быть) -->
+									<picture><source data-srcset="img/testimonials/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/testimonials/01.jpg" alt="Gita Savitri"></picture>
+								</div>
+								<div class="slide-testimonial__content">
+									<!-- имя -->
+									<h4 class="slide-testimonial__name">Gita Savitri</h4>
+									<!-- инфо -->
+									<p class="slide-testimonial__info">Content Creator/Influencer</p>
+								</div>
+							</div>
+							<!-- Слайд -->
+							<div class="testimonials__slide slide-testimonial swiper-slide">
+								<div class="slide-testimonial__image">
+									<picture><source data-srcset="img/testimonials/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/testimonials/01.jpg" alt="Gita Savitri"></picture>
+								</div>
+								<div class="slide-testimonial__content">
+									<h4 class="slide-testimonial__name">Gita Savitri</h4>
+									<p class="slide-testimonial__info">Content Creator/Influencer</p>
+								</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<div class="testimonials__arrows">
+							<button type="button" class="testimonials__arrow testimonials__arrow_prev _icon-arrow-slider-long"></button>
+							<button type="button" class="testimonials__arrow testimonials__arrow_next _icon-arrow-slider-long"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- конец блока Testimonials -->
+
+			<!-- блок Instagram (можно сделать чтобы изменять картинки с админки) -->
+			<section class="page__insta insta">
+				<div class="insta__container">
+					<h2 class="insta__title title">Instagram</h2>
+					<div data-gallery class="insta__items">
+						<!-- в ссылке должен быть указан путь к картинке той же, но большого размера для функционала галереи -->
+						<a href="img/insta/01_big.jpg" class="insta__item">
+							<div class="insta__image-ibg">
+								<!-- src-путь к картинке, alt-альтернативный текст (пусть он везде будет Photo of Watches, его видно при открытии галереи) -->
+								<picture><source data-srcset="img/insta/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/insta/01.jpg" alt="Photo of Watches"></picture>
+							</div>
+						</a>
+						<a href="img/insta/02_big.jpg" class="insta__item">
+							<div class="insta__image-ibg">
+								<picture><source data-srcset="img/insta/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/insta/02.jpg" alt="Photo of Watches"></picture>
+							</div>
+						</a>
+						<a href="img/insta/03_big.jpg" class="insta__item">
+							<div class="insta__image-ibg">
+								<picture><source data-srcset="img/insta/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/insta/03.jpg" alt="Photo of Watches"></picture>
+							</div>
+						</a>
+						<a href="img/insta/04_big.jpg" class="insta__item">
+							<div class="insta__image-ibg">
+								<picture><source data-srcset="img/insta/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/insta/04.jpg" alt="Photo of Watches"></picture>
+							</div>
+						</a>
+						<a href="img/insta/05_big.jpg" class="insta__item">
+							<div class="insta__image-ibg">
+								<picture><source data-srcset="img/insta/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/insta/05.jpg" alt="Photo of Watches"></picture>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+			<!-- конец блока Instagram -->
+
+			<!-- блок Clients -->
+			<section class="page__clients clients">
+				<div class="clients__container">
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/01.png" alt="BNI"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/02.png" alt="PermataBank"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/03.png" alt="MasterCard"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/04.png" alt="Danamon"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/05.png" alt="VISA"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/06.png" alt="mandiri"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/07.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/07.png" alt="Kredivo"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/08.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/08.png" alt="UOB"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/09.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/09.png" alt="GO PAY"></picture>
+					</div>
+					<div class="clients__item">
+						<picture><source data-srcset="img/clients/10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/clients/10.png" alt="Standart Chartered"></picture>
+					</div>
+				</div>
+			</section>
+			<!-- конец блока Clients -->
+		</main>
+		<!--     end of content     -->
+
+		<!-- ********************* -->
+		<!--         FOOTER        -->
+		<!-- ********************* -->
+		<footer data-spollers="991.98,max" class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<a href="" class="footer__logo">
+						<picture><source srcset="img/logo-footer.webp" type="image/webp"><img src="img/logo-footer.png" alt="logo"></picture>
+					</a>
+					<div class="footer__blocks">
+						<div class="footer__block">
+							<h3 class="footer__label label-footer">Address</h3>
+							<div class="footer__text">
+								<p>Store & Office</p>
+								<p>Jl. Setrasari Kulon III, No. 10-12,</p>
+								<p>Sukarasa, Sukasari, Bandung,</p>
+								<p>Jawa Barat, Indonesia 40152</p>
+							</div>
+						</div>
+						<div class="footer__block">
+							<h3 class="footer__label label-footer">Office Hour</h3>
+							<div class="footer__text">
+								<p>Monday - Sunday</p>
+								<p>10.00 - 18.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Get in touch</button>
+					<div class="footer__contacts contacts-footer">
+						<div class="contacts-footer__body">
+							<div class="contacts-footer__label label-footer">Phone</div>
+							<a href="tel:02220277564" class="contacts-footer__value">022-20277564</a>
+							<div class="contacts-footer__label label-footer">Service Center</div>
+							<a href="tel:08112338899" class="contacts-footer__value">0811-233-8899</a>
+							<div class="contacts-footer__label label-footer">Customer Service</div>
+							<a href="tel:08112359988" class="contacts-footer__value">0811-235-9988</a>
+							<div class="footer__social social">
+								<a href="#" class="social__item _icon-s-facebook"></a>
+								<a href="#" class="social__item _icon-s-instagram"></a>
+								<a href="#" class="social__item _icon-s-twitter"></a>
+								<a href="#" class="social__item _icon-s-youtube"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Useful Link</button>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Warranty & Complaints</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Order & Shipping</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Tracking Order</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">About Us</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Repair</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Terms</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">FAQ</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__column">
+					<button type="button" data-spoller class="footer__title title title_white _icon-arrow-select">Campaign</button>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Mengenal Arti Cukups</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Tell Your Difference</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Waykambas</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Rebrand</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Gallery</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Singo</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="" class="menu-footer__link">Rakai</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+		<!--      end of footer     -->
+	</div>
+	<!-- ********************* -->
+	<!--    POPUP search    -->
+	<!-- *внутри имеется форма поиска* -->
+	<!-- ********************* -->
+	<div id="search" aria-hidden="true" class="popup popup_search">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<!-- *начинается форма поиска* -->
+					<form action="#" method="get" class="search-form">
+						<div class="search-form__title title title_small">Search</div>
+						<div class="search-form__body">
+							<div class="search-form__line">
+								<input data-required autocomplete="off" type="text" name="form[]" data-error="No entered request" placeholder="Enter product name" class="search-form__input input">
+								<!-- *выпадающий список с динамическими результатами поиска* -->
+								<ul class="search-form__list list-search">
+									<!-- *карточка-ряд выпадающего списка* -->
+									<li>
+										<a href="" class="list-search__link">
+											<div class="list-search__img">
+												<picture><source srcset="img/monthly-deals/01.webp" type="image/webp"><img src="img/monthly-deals/01.jpg" alt=""></picture>
+											</div>
+											<span class="list-search__name">Watch</span>
+										</a>
+									</li>
+									<!-- *следующая карточка-ряд выпадающего списка* -->
+									<li>
+										<a href="" class="list-search__link">
+											<div class="list-search__img">
+												<picture><source srcset="img/monthly-deals/01.webp" type="image/webp"><img src="img/monthly-deals/01.jpg" alt=""></picture>
+											</div>
+											<span class="list-search__name">Watch</span>
+										</a>
+									</li>
+									<!-- *конец карточки (они все засунуты в li)* -->
+								</ul>
+								<!-- *конец выпадающего списка* -->
+							</div>
+							<button type="submit" class="button _icon-search"></button>
+						</div>
+					</form>
+					<!-- *конец формы поиска* -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  конец попапа search  -->
+	<!-- ********************* -->
+	<!--    POPUP cart    -->
+	<!-- *внутри добавление товаров в карточки, поле промокода* -->
+	<!-- ********************* -->
+	<div id="cart_" aria-hidden="true" class="popup popup_cart">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="popup__text">
+					<!-- общая форма корзины -->
+					<form action="#" class="cart">
+						<div class="cart__items">
+							<!-- карточка (в этой внутри прокомментированы элементы, в следующих по аналогии) -->
+							<div class="cart__item item-cart">
+								<a href="" class="item-cart__image">
+									<!-- src-путь к картинке, alt-альтернативный текст (желательно его в одну переменную с названием, они одинаковые должны быть) -->
+									<picture><source srcset="img/collections/ebony/04.webp" type="image/webp"><img src="img/collections/ebony/04.png" alt="Way Kambas Mini Ebony"></picture>
+								</a>
+								<div class="item-cart__body">
+									<!-- название товара -->
+									<a href="" class="item-cart__title">Way Kambas Mini Ebony</a>
+									<!-- старая цена -->
+									<div class="item-cart__old-price old-price">Rp 1.280.000</div>
+									<!-- цена со скидкой -->
+									<div class="item-cart__price">Rp 1.024.000</div>
+								</div>
+								<div class="item-cart__info">
+									<div class="item-cart__packaging">
+										<div class="item-cart__label">Select Packaging</div>
+										<!-- выбор упаковки -->
+										<select name="form[]" data-class-modif="cart">
+											<option value="1" selected>Default Packaging (Free)</option>
+											<option value="2">Wooden Packaging (Rp 50.000)</option>
+											<option value="3">Textile Packaging (Rp 30.000)</option>
+										</select>
+									</div>
+									<div class="item-cart__actions">
+										<div data-quantity class="item-cart__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<!-- поле количества -->
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<!-- общая стоимость по 1 виду товара -->
+										<div class="item-cart__total">Rp 2.048.000</div>
+										<!-- кнопка удалить товар -->
+										<button class="item-cart__delete _icon-delete"></button>
+									</div>
+								</div>
+							</div>
+							<!-- конец карточки -->
+							<!-- карточка -->
+							<div class="cart__item item-cart">
+								<a href="" class="item-cart__image">
+									<picture><source srcset="img/collections/featured/01.webp" type="image/webp"><img src="img/collections/featured/01.png" alt="Sikka (Ebony & Maple)"></picture>
+								</a>
+								<div class="item-cart__body">
+									<a href="" class="item-cart__title">Sikka (Ebony & Maple)</a>
+									<div class="item-cart__price">Rp 1.264.000</div>
+								</div>
+								<div class="item-cart__info">
+									<div class="item-cart__packaging">
+										<div class="item-cart__label">Select Packaging</div>
+										<select name="form[]" data-class-modif="cart">
+											<option value="1" selected>Default Packaging (Free)</option>
+											<option value="2">Wooden Packaging (Rp 50.000)</option>
+											<option value="3">Textile Packaging (Rp 30.000)</option>
+										</select>
+									</div>
+									<div class="item-cart__actions">
+										<div data-quantity class="item-cart__quantity quantity">
+											<button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+										</div>
+										<div class="item-cart__total">Rp 1.264.000</div>
+										<button class="item-cart__delete _icon-delete"></button>
+									</div>
+								</div>
+							</div>
+							<!-- конец карточки -->
+						</div>
+						<div class="cart__footer">
+							<div class="cart__promo promo-cart">
+								<label for="p-1" class="promo-cart__label">Kode Promo</label>
+								<div class="promo-cart__line">
+									<!-- поле промокода -->
+									<input id="p-1" autocomplete="off" type="text" name="promo" class="promo-cart__input">
+								</div>
+								<div class="promo-cart__info">35% OFF</div>
+							</div>
+							<div class="cart__total total-cart">
+								<div class="total-cart__label">Subtotal</div>
+								<div class="total-cart__value">
+									<!-- общая цена покупки старая -->
+									<div class="total-cart__old-price old-price">Rp 3.312.000</div>
+									<!-- общая цена покупки со скидкой -->
+									<div class="total-cart__price">Rp 2.152.000</div>
+								</div>
+							</div>
+						</div>
+						<button type="submit" class="cart__button button">Checkout</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  конец попапа cart  -->
+	<script src="js/app.min.js?_v=20230826185428"></script>
+	<script>
+		window.onload = function() {
+			document.getElementsByTagName("body")[0].style.opacity = "1";
+		}
+	</script>
+</body>
+
+</html>
